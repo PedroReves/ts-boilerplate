@@ -7,7 +7,9 @@
 		"dev": "tsx watch src/app.ts",
 		"test": "vitest",
 		"test:watch": "vitest -w",
-		"lint": "biome check --write ./src/"
+		"lint": "biome check --write ./src/",
+		"build": "tsc -p tsconfig.json",
+		"build:watch": "tsc -w -p tsconfig.json"
 	},
 	"keywords": [],
 	"author": "",
